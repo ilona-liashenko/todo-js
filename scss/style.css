@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Yellowtail&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url(/img/todo_2.jpg);
+  background-image: url(../img/todo_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
