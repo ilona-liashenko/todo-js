@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Yellowtail&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(/img/todo_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 150px;
+  border: 1px solid #eceaea;
+  padding: 100px 40px;
+  border-radius: 10px;
+}
+.main__title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.main__span {
+  font-family: "Yellowtail", cursive;
+  font-size: 65px;
+  color: #0d6efd;
+}
+
+.form__input {
+  margin-bottom: 40px;
+}
+.form__button {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.check {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.check__item--low:checked {
+  background-color: rgba(116, 223, 15, 0.5294117647);
+  border: #f4eded;
+}
+.check__item--medium:checked {
+  background-color: rgba(245, 221, 2, 0.8470588235);
+  border: #f4eded;
+}
+.check__item--high:checked {
+  background-color: rgba(231, 27, 30, 0.4901960784);
+  border: #f4eded;
+}
+
+.list__item {
+  display: flex;
+  justify-content: space-between;
+}
+.list__item--priority-1 {
+  background-color: rgba(115, 238, 0, 0.2);
+}
+.list__item--priority-2 {
+  background-color: rgba(224, 188, 5, 0.2);
+}
+.list__item--priority-3 {
+  background-color: rgba(247, 64, 67, 0.2);
+}
+.list__link {
+  margin-right: 15px;
+  color: #c8c3c3;
+  text-decoration: none;
+  font-size: 17px;
+}
+.list__link:hover {
+  color: #0d6efd;
+  transition: ease-in-out 0.2s;
+}
+.list__link-btn {
+  width: 30px;
+  border: none;
+  background-color: transparent;
+}
+
+.completed {
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
