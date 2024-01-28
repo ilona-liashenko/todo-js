@@ -101,10 +101,14 @@ function toggleTask(target, id) {
 
 
 function deleteItem(target, id) {
-    const listItem = target.closest('li.list__item');
+    const confirmed = confirm('Are you sure you want to delete item?');
 
-    listItem.remove(); 
-    taskStorage.remove(id);
+    if (confirmed) {
+        const listItem = target.closest('li.list__item');
+    
+        listItem.remove(); 
+        taskStorage.remove(id);
+    }
 }
 
 function renderLi({id, text, priority, isCompleted}) {
